@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="top">
+		<link href="css/jquery.fullPage.css" rel="stylesheet">
+		<link href="css/xq.css" rel="stylesheet">
+		<link href="css/public.css" rel="stylesheet">
+		<script src="js/jquery-1.8.3.js"></script>
+		<script src="js/jquery-ui-1.10.3.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<title>拾心</title>
+	  <script type="text/javascript">
+		 $(function(){
+		    $('#do_cont').fullpage({
+		        'verticalCentered': true,//内容是否垂直居中
+		        'css3': true,
+		        // 'continuousVertical': true,//控制是否循环
+		        'loopTop':true,
+		        'loopBottom':true,
+		        'navigation': true,
+		        'navigationPosition': 'right',
+		        'navigationColor' :  '#ccc',
+		        'navigationTooltips': ['美食', '懂你', '实惠', '积分'],
+		        'afterLoad':function (anchorLink,index) {
+		        	$(".section").each(function () {
+		        		var fl=$(this).find(".fl");
+		        		var fr=$(this).find(".fr");
+		        		fl.removeClass(fl.attr("anima"));
+		        		fr.removeClass(fr.attr("anima"));
+		        	});
+		        	var cur=$(".section").eq(index-1);
+		        	var fl=cur.find(".fl");
+		        	var fr=cur.find(".fr");
+		        	fl.addClass(fl.attr("anima"));
+		        	fr.addClass(fr.attr("anima"));
+		        }
+		    });
+		    $("body").append('<div class="footer">© 2015-2016 心生活电子商务（湖北）有限公司</div><div class="header"><div class="width macen"><div class="fl"><img src="img/logo.png"></div><div class="fr"><span><img src="img/iphone.png">iPhone下载</span><span><img src="img/android.png">Android下载</span></div></div>');
+		});
+	  </script>
+	</head>
+	<body>
+		<div id="do_cont">
+			<div id="bg_1" class="section">
+				<div  class="width macen pic">
+					<div class="fl animated2 putin" anima="putin">
+						<img src="img/1.png">
+					</div>
+					<div class="fr flash animated2" anima="flash">
+						<div class="bake">
+							<div>
+								<img src="img/top1ti.png">
+							</div>
+							<div class="downcode">
+								<div class="boe31"><img src="img/code.png"></div>
+								<div style="font-size:14px;text-align:center;line-height:45px;color:#717171;">手机扫描二维码下载</div>
+								<div class="downbtn">
+									<div class="btn">立即下载</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bg_2" class="section">
+				<div  class="width macen pic">
+					<div class="fl animated2" anima="flash">
+						<img src="img/2.png">
+					</div>
+					<div class="fr animated2" anima="leftdown">
+						<div class="bake">
+							<div>
+								<img src="img/top2ti.png">
+							</div>
+							<div class="downcode">
+								<div class="boe31"><img src="img/code.png"></div>
+								<div style="font-size:14px;text-align:center;line-height:45px;color:#717171;">手机扫描二维码下载</div>
+								<div class="downbtn">
+									<div class="btn">立即下载</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bg_3" class="section">
+				<div  class="width macen pic">
+					<div class="fl animated2" anima="leftdown">
+						<img src="img/3.png">
+					</div>
+					<div class="fr animated2" anima="updown">
+						<div class="bake">
+							<div>
+								<img src="img/top3ti.png">
+							</div>
+							<div class="downcode">
+								<div class="boe31"><img src="img/code.png"></div>
+								<div style="font-size:14px;text-align:center;line-height:45px;color:#717171;">手机扫描二维码下载</div>
+								<div class="downbtn">
+									<div class="btn">立即下载</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="bg_4" class="section">
+				<div  class="width macen pic">
+					<div class="fl animated2" anima="updown">
+						<img src="img/4.png">
+					</div>
+					<div class="fr animated2" anima="putin">
+						<div class="bake">
+							<div>
+								<img src="img/top4ti.png">
+							</div>
+							<div class="downcode">
+								<div class="boe31"><img src="img/code.png"></div>
+								<div style="font-size:14px;text-align:center;line-height:45px;color:#717171;">手机扫描二维码下载</div>
+								<div class="downbtn">
+									<div class="btn">立即下载</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
