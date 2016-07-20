@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+.width{
+	width: 1160px;
+}
+.macen{
+	margin: 0px auto;
+}
+.pic > div{
+	width: 580px;
+}
+.pic .fl img{
+	width: 630px;
+	margin-left: -50px;
+}
+.pic .fr > div{
+	margin-top: 20px;
+}
+.pic .fr > div >div>img{
+	width: 200px;
+	margin-top: 50px;
+}
+.boe31 img{
+	margin-bottom: -3px;
+	width: 120px;
+	height: 120px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+#bg_1{
+	background: #F8C665;
+}
+#bg_2{
+	background: #FA777F;
+}
+#bg_3{
+	background: #ec6bab;
+}
+#bg_4{
+	background: #5DC2A2;
+}
+.header{
+	background: rgba(255,255,255,0.4);
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+.header .fl img{
+	height: 50px;
+	margin-top: 15px;
+}
+.header .fr span{
+	height: 25px;
+	border:1px solid #fff;
+	border-radius: 2px;
+	padding: 0px 20px 0px 40px;
+	margin-top: 27px;
+	color: #fff;
+	cursor: pointer;
+	margin-right: 20px;
+	text-align: center;
+	line-height: 25px;
+	display: inline-block;
+}
+.header .fr span img{
+	height: 18px;
+	margin-top: 3px;
+	float: left;
+	margin-left: -26px;
+}
+.footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+.boe31{
+	border:1px solid #e3e3e3;
+	display: inline-block;
+	margin-top: 20px;
+	position: relative;
+	left: 50%;
+	transform:translateX(-50%);
+}
+.downcode{
+	border-radius: 8px;
+	background: #fff;
+	display: inline-block;
+}
+.downbtn{
+	width: 120px;
+	background: #F6F6F6;
+	padding: 15px 30px;
+	margin-top: 0px !important;
+}
+.downbtn .btn{
+	line-height: 40px;
+	padding: 0px 20px;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 14px;
+	background: url('../img/comein.png') no-repeat 80px center #f5001c;
+}
+.bake{
+	display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
