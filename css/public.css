@@ -3,17 +3,77 @@
 	padding: 0px;
 	font-family: "微软雅黑";
 }
+a{
+	text-decoration: none;
+	color: currentcolor;
+}
+ul li{
+	list-style: none;
+}
+.atical li{
+	background: rgba(255,255,255,0.6);
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.aticalinfo{
+	background: rgba(255,255,255,0.6);
+	margin-bottom: 20px;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin: 150px auto;
+	max-width:1160px;
+}
+.title{
+	font-size: 18px;
+	line-height: 45px;
+	height: 45px;
+	overflow: hidden;
+	text-align: center;
+}
+.atinfo{
+	margin-top: 20px;
+}
+.info{
+	line-height: 25px;
+}
+.info > div{
+	height: 25px;
+	overflow: hidden;
+	font-size: 16px;
+	padding-right: 10px;
+}
+.info p{
+	height: 50px;
+	overflow: hidden;
+	font-size: 14px;
+	padding-right: 10px;
+}
+.atical li:first-child{
+	margin-top: 150px;
+}
+.atical li > div:first-child{
+	width: 100px;
+	display: inline-block;
+}
+.atical li > div:last-child{
+	margin-left: 50px;
+}
+.atical li img{
+	width: 100px;
+	height: 100px;
+}
 .width{
-	width: 1160px;
+	max-width: 1160px;
+	width: 100%;
+}
+.ovhid{
+	overflow: hidden;
 }
 .macen{
 	margin: 0px auto;
 }
-.pic > div{
-	width: 580px;
-}
 .pic .fl img{
-	width: 630px;
+	max-width: 630px;
 	margin-left: -50px;
 }
 .pic .fr > div{
@@ -57,10 +117,10 @@
 	height: 50px;
 	margin-top: 15px;
 }
-.header .fr span{
+.header span{
 	height: 25px;
 	border:1px solid #fff;
-	border-radius: 2px;
+	border-radius: 4px;
 	padding: 0px 20px 0px 40px;
 	margin-top: 27px;
 	color: #fff;
