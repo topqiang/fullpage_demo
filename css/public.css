@@ -176,7 +176,7 @@ ul li{
 	border-radius: 20px;
 	color: #fff;
 	font-size: 14px;
-	background: url('../img/comein.png') no-repeat 80px center #f5001c;
+	background: url('../img/comein.png') no-repeat 80px center rgba(181, 181, 181, 0.61);
 }
 .bake{
 	display: inline-block;
